@@ -1,0 +1,40 @@
+/* userHome.css */
+
+.user-home-container {
+    position: relative;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .artifacts-img {
+    width: 100%; /* Make the image full width */
+    height: 100vh; /* Make the image full height */
+    object-fit: cover; /* Maintain aspect ratio and cover entire container */
+  }
+  
+  /* userHome.css */
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .slogan {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    color: white; /* Set text color to ensure visibility */
+    font-size: 64px; /* Adjust font size as needed */
+    text-align: center; /* Center align text */
+    z-index: 1; /* Ensure text is above the image */
+    animation: fadeIn 2s ease-in-out; /* Apply animation */
+  }
+  

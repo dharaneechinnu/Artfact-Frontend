@@ -1,0 +1,70 @@
+/* BiddingItem.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .item h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .item p {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .bid-form {
+    margin-bottom: 20px;
+  }
+  
+  .bid-form input[type="number"] {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .bid-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bid-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .timer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .winning-info {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,98 @@
+/* Home.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-auction {
+  margin-bottom: 20px;
+}
+
+.add-auction h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.add-auction input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.available-auctions {
+  margin-bottom: 20px;
+}
+
+.available-auctions h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.auction {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.auction h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.auction img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.auction p {
+  margin-bottom: 5px;
+}
+
+.auction input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.auction button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auction button:hover {
+  background-color: #0056b3;
+}
