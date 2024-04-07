@@ -1,6 +1,6 @@
 import axios from 'axios'
 
 export default axios.create({
-    baseURL: "http://localhost:3510"
+    baseURL: "https://artifact-backend.onrender.com"
 })
 
