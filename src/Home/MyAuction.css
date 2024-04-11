@@ -39,3 +39,12 @@
     color: white;
     cursor: pointer;
 }
+.btn-etn{
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 5px;
+  color: white;
+  cursor: pointer;
+}
